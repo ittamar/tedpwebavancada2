@@ -75,5 +75,11 @@ public class Elevador {
 			
 		}
 	}
+	@Override
+	public String toString() {
+		return "Elevador [andar=" + andar + ", numerodeAndares=" + numerodeAndares + ", capacidadeDoElevador="
+				+ capacidadeDoElevador + ", qtdDepessoasNoElevador=" + qtdDepessoasNoElevador + "]";
+	}
+	
 
 }
