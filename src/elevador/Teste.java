@@ -10,6 +10,8 @@ public class Teste {
 		elevador.inicializa(2000,5);
 		elevador.entra();
 		elevador.sair();
+		elevador.sobe();
+		elevador.desce();
 		
 
 	}
